@@ -5,4 +5,4 @@ var foo = {
   baz: 11
 }
 
-console.log(foo);
+console.log(foo)
