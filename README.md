@@ -2,6 +2,8 @@
 
 ## Stack
 
+[https://qiita.com/mizchi/items/bcb1aef8d1f14f8d0b4a](https://qiita.com/mizchi/items/bcb1aef8d1f14f8d0b4a)
+
 * [@mizchi's frontend boilerplate](https://github.com/mizchi/fe-base)
 * babel/flowtype
 * react
