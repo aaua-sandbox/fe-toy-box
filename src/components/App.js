@@ -1,4 +1,9 @@
 /* @flow */
+/*
+ ページ全体の構成を管理
+ src/index.jsから呼び出される
+ */
+
 import React from 'react'
 import { Provider } from 'react-redux'
 import { BrowserRouter } from 'react-router-dom'

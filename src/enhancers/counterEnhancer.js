@@ -1,4 +1,5 @@
 /* @flow */
+/* container.ReduxのStoreが管理する状態遷移をReactのプロパティとして流し込む */
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { compose, lifecycle, pure, type HOC } from 'recompose'

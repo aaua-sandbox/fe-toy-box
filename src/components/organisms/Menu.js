@@ -1,4 +1,10 @@
 /* @flow */
+/*
+ サイドメニュー
+
+ Material-UIサンプル
+ https://material-ui-next.com/
+ */
 import React from 'react'
 import List, { ListItem } from 'material-ui/List'
 import styled from 'styled-components'
@@ -18,9 +24,6 @@ export default function Menu() {
         </ListItem>
         <ListItem>
           <Link to="/counter">Counter</Link>
-        </ListItem>
-        <ListItem>
-          <Link to="/about">About</Link>
         </ListItem>
       </List>
     </MenuContainer>
