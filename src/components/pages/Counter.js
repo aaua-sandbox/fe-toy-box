@@ -14,6 +14,7 @@ export default enhancer(props => {
       <h1>Counter</h1>
       <Label text={props.value.toString()} />
       <button onClick={() => props.actions.increment()}>+</button>
+      <button onClick={() => props.actions.decrement()}>-</button>
     </div>
   )
 })

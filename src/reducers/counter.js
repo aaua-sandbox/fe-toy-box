@@ -3,6 +3,7 @@
 
 // Constants
 export const INCREMENT = 'counter/increment'
+export const DECREMENT = 'counter/decrement'
 
 // Action Creators
 export function increment() {
@@ -10,9 +11,14 @@ export function increment() {
     type: INCREMENT // action.type
   }
 }
+export function decrement() {
+  return {
+    type: DECREMENT
+  }
+}
 
 // Reducer
-export type Action = $Call<typeof increment>
+export type Action = $Call<typeof increment> // TODO: typeof increment?
 
 export type State = {
   value: number
@@ -28,6 +34,9 @@ export default (state: State = initialState, action: Action): State => {
   switch (action.type) {
     case INCREMENT: {
       return { ...state, value: state.value + 1 }
+    }
+    case DECREMENT: {
+      return { ...state, value: state.value - 1 }
     }
     default: {
       return state
