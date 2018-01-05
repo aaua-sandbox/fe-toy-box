@@ -1,6 +1,6 @@
 /* @flow */
 import React from 'react'
-import enhancer from '../../enhancers/counterEnhancer'
+import enhancer from '../../enhancers/counterHogeEnhancer'
 import Label from '../atoms/Label'
 
 /* 
@@ -11,7 +11,7 @@ import Label from '../atoms/Label'
 export default enhancer(props => {
   return (
     <div>
-      <p>atoms/Counter</p>
+      <p>atoms/CounterHoge</p>
       <Label text={props.value.toString()} />
       <button onClick={() => props.actions.increment()}>+</button>
       <button onClick={() => props.actions.decrement()}>-</button>

@@ -1,13 +1,14 @@
 /* @flow */
 import React from 'react'
 import CounterAtom from '../atoms/Counter'
+import CounterHogeAtom from '../atoms/CounterHoge'
 
 export default function Counter() {
   return (
-    <div>
-      <h1>Counter</h1>
+    <section>
+      <h1>pages/counter</h1>
       <CounterAtom />
-      <CounterAtom />
-    </div>
+      <CounterHogeAtom />
+    </section>
   )
 }

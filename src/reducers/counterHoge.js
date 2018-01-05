@@ -1,9 +1,9 @@
 /* @flow */
-/* atoms/Counterの状態を管理 */
+/* atoms/CounterHogeの状態を管理 */
 
 // Constants
-export const INCREMENT = 'counter/increment'
-export const DECREMENT = 'counter/decrement'
+export const INCREMENT = 'counterHoge/increment'
+export const DECREMENT = 'counterHoge/decrement'
 
 // Action Creators
 export function increment() {
